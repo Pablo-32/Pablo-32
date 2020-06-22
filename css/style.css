@@ -492,13 +492,14 @@ footer{
         width:80%;
         height:100vh;
         top: -108%;
-        margin-top:39px;
+        margin-top:35px;
         position: fixed;
         background: #000;
     }
 
     header nav ul{
         display: block;
+        padding: 0px;
     }
     header nav ul li {
         display:block;
