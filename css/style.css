@@ -541,7 +541,7 @@ footer{
     }
     .text{
         display: block;
-        padding: 15px;
+        padding: 20px;
     }
 }
 @media screen and (max-width: 500px) {
