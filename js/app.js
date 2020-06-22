@@ -64,13 +64,13 @@ $(document).ready(function () {
           
       $('li').click(function(){
         $('nav').animate({
-          top: '-108%'
+          top: '-120%'
         });
       });
   
       $('section').click(function(){
         $('nav').animate({
-          top: '-108%'
+          top: '-120%'
         });
       });
 
