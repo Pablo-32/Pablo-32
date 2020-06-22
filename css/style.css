@@ -475,6 +475,74 @@ footer{
         display: none;
     }
 }
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 80px;
+    }
+    .imagen {
+        width: 80%;
+    }
+    .contenedor-slider {
+        width: 70%;
+    }
+    header{
+        position: fixed;
+    }
+    header nav {
+        width:80%;
+        height:100vh;
+        top: -108%;
+        margin-top:39px;
+        position: fixed;
+        background: #000;
+    }
+
+    header nav ul{
+        display: block;
+    }
+    header nav ul li {
+        display:block;
+        float:none;
+        border-bottom:1px solid rgba(255,255,255, .3);
+    }
+    
+    .menu_bar {
+        display:block;
+        width:100%;
+        color:#fff;
+        /* padding: 4px; */
+    }
+    .menu_bar .btn-menu {
+        display:block;
+        padding:5px;
+        background: #000;
+        text-decoration:none;
+        font-weight: bold;
+        font-size:25px;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+    
+    .menu_bar span {
+        float:right;
+        font-size:25px;
+        margin-right: 10px;
+        display: block;
+    }
+    .btn-menu img{
+        width: 94px;
+        display: flex;
+        margin: auto;
+    }
+    .fas{
+        display: none;
+    }
+    .text{
+        display: block;
+        padding: 15px;
+    }
+}
 @media screen and (max-width: 500px) {
     h1 {
         font-size: 50px;
