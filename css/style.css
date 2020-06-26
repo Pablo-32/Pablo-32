@@ -544,6 +544,18 @@ footer{
         padding: 20px;
     }
 }
+@media screen and (max-width: 507px){
+    .linea-final{
+        font-size: 15px;
+        height: 22px;
+    }
+    .row img{
+        margin-left: -22px;
+    }
+    .colum2{
+        padding: 0px 40px 15px;
+    }
+}
 @media screen and (max-width: 500px) {
     h1 {
         font-size: 50px;
